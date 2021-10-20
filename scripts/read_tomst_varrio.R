@@ -463,7 +463,7 @@ df2 %>% mutate(probl = ifelse(site == siteid &
 siteid <- 12
 
 office <- c(as_date(as_date(min(df$datetime)):as_date("2019-07-10")))
-probls <- c()
+probls <- c(as_date(as_date("2020-09-19"):as_date("2021-07-05")))
 hattu <- c()
 
 df2 %>% mutate(probl = ifelse(site == siteid &
@@ -951,7 +951,7 @@ df2 %>% mutate(probl = ifelse(site == siteid &
 siteid <- 45
 
 office <- c(as_date(as_date(min(df$datetime)):as_date("2019-07-10")))
-probls <- c()
+probls <- c(as_date(as_date("2020-10-06"):as_date("2021-07-07")))
 hattu <- c()
 
 df2 %>% mutate(probl = ifelse(site == siteid &
