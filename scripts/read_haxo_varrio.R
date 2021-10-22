@@ -355,4 +355,4 @@ dev.off()
 df2 %>% mutate(haxo_probl = ifelse(site == 2, 0, haxo_probl)) -> df2
 df2 %>% mutate(haxo_probl = ifelse(site == 47 & date > "2021-02-01" & date < "2021-04-01", 2, haxo_probl)) -> df2
 
-fwrite(df2 %>% select(-med_at, -med_arh), "haxo_data.csv")
+fwrite(df2 %>% select(-med_at, -med_arh), "output/haxo_data.csv")
